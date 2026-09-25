@@ -8,7 +8,7 @@ if (isNaN(filas) || filas <= 0 || !Number.isInteger(filas)) {
 } else {
     let numero = filas * columnas;
 
-
+    document.write("<table border='1'>");
 
     for (let i = 1; i <= filas; i++) {
         document.write("<tr>");
